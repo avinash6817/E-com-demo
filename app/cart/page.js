@@ -90,7 +90,7 @@ export default function Cart() {
                 <h2>{item.name}</h2>
                 <p>₹{item.price}</p>
                 <div>
-                  <label htmlFor={`quantity-${item.id}`}>Quantity:</label>
+                  <label className={styles.quantity} htmlFor={`quantity-${item.id}`}>Quantity:</label>
                   <input
                     id={`quantity-${item.id}`}
                     type="number"

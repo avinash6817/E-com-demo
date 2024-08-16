@@ -1,39 +1,117 @@
 .navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 2.5rem 6rem;
-  background-color: #f8f9fa;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  height: 108px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 2.5rem 6rem;
+background-color: #f8f9fa;
+box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+height: 108px;
 }
 
 .logo a {
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: #e56314;
-  text-decoration: none;
+font-size: 1.5rem;
+font-weight: bold;
+color: #e56314;
+text-decoration: none;
 }
 
 .navLinks {
-  display: flex;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+display: flex;
+list-style-type: none;
+margin: 0;
+padding: 0;
 }
 
 .navLinks li {
-  margin-left: 1rem;
+margin-left: 1rem;
 }
 
 .navLinks a {
-  text-decoration: none;
-  color: #333;
-  font-weight: 500;
-  font-size: 1.2rem;
+text-decoration: none;
+color: #333;
+font-weight: 500;
+font-size: 1.2rem;
 }
 
 .navLinks .active a {
-  color: #e56314;
-  font-weight: 800;
+color: #e56314;
+font-weight: 800;
 }
+
+.hamburger {
+  display: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+/* Responsive styles */
+
+@media screen and (max-width: 1024px) {
+  .navbar {
+    padding: 2rem 4rem;
+    height: auto;
+  }
+
+  .logo a {
+    font-size: 1.3rem;
+  }
+
+  .navLinks a {
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    padding: 1.5rem 2rem;
+  }
+
+  .logo {
+    margin-bottom: 1rem;
+  }
+
+  .navLinks {
+    width: 100%;
+    justify-content: space-around;
+  }
+
+  .navLinks li {
+    margin: 0;
+}
+}
+
+@media screen and (max-width: 480px) {
+  .navbar {
+    padding: 1rem;
+  }
+
+  .logo a {
+    font-size: 1.2rem;
+  }
+
+  .navLinks {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navLinks li {
+    margin: 0.5rem 0;
+  }
+
+  .navLinks a {
+    font-size: 1rem;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .menuOpen {
+    display: flex;
+  }
+}
+
+
+
