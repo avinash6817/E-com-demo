@@ -1,0 +1,158 @@
+.cartContainer{
+  padding: 2.5rem 6rem;
+}
+.title{
+  padding: 2rem 0;
+}
+.cartItem {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.cartImage {
+  width: 100px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.quantityInput {
+  width: 50px;
+  padding: 5px;
+}
+.cartContent{
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+.cartContent h2{
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+.removeButton {
+  width: 131px;
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.removeButton:hover {
+  background-color: #ff1a1a;
+}
+
+.couponSection {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.couponInput {
+  padding: 8px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.applyCouponButton {
+  padding: 8px 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.applyCouponButton:hover {
+  background-color: #45a049;
+}
+
+.appliedCoupon {
+  color: #4CAF50;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.total{
+  margin-top: 1rem;
+}
+.total h2{
+  padding-bottom: 0.5rem;
+}
+
+
+.couponSection {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.couponInputWrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.couponInput {
+  padding: 8px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.showCouponsButton {
+  background: #e4e4e4; 
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  margin: 0 1rem;
+  padding: 0.4rem 1rem;
+  cursor: pointer;
+}
+
+.applyCouponButton {
+  padding: 8px 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.applyCouponButton:hover {
+  background-color: #45a049;
+}
+
+.couponDropdown {
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  background-color: #f9f9f9;
+}
+
+.couponDropdown p {
+  margin: 0 0 5px 0;
+  font-weight: bold;
+}
+
+.couponDropdown ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.couponDropdown li {
+  padding: 5px;
+  cursor: pointer;
+}
+
+.couponDropdown li:hover {
+  background-color: #e9e9e9;
+}

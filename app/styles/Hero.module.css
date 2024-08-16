@@ -1,0 +1,43 @@
+.hero {
+  background-color: #f0f0f0;
+  text-align: center;
+  padding: 4rem 2rem;
+  height:calc(100vh - 108px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero h1 {
+  font-size: 3.5rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.7rem;
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+.cta {
+  background-color: #e56314;
+  color: white;
+  border: none;
+  font-size: 1.3rem;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.cta a{
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  text-decoration: none;
+  color: #fff;
+}
+
+.cta:hover {
+  background-color: #ff6200;
+}
