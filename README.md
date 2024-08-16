@@ -1,5 +1,6 @@
-# Assignment
+You can see it live [here](https://e-com-demo-pi.vercel.app/)   
 
+# Assignment
 
 Build an e-commerce shopping cart application using NextJS or SvelteKit. The application will feature a product listing page showcasing various products with details and an "Add to Cart" functionality. Additionally, a dedicated cart page will allow users to manage items, including quantity adjustments, removal, and total price calculations with potential discounts.
 
